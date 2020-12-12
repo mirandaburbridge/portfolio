@@ -1,0 +1,48 @@
+.intro {
+    background-image: url("Assets/pexels-sohail-na-807598.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+    padding: 10%;
+    margin: auto;
+    height: 400px;
+}
+
+#name {
+   font-weight: 350;
+}
+
+#aboutMe {
+    padding: 5%;
+}
+
+#resume {
+    margin-bottom: 20px;
+}
+
+#skills {
+    margin-top: 15px;
+}
+
+.card {
+    background-color: #d9fce1;
+    margin: 10%;
+}
+
+#contactMe {
+    text-align: center;
+    width: 100%;
+    padding: 5%;
+}
+
+#socials {
+    padding: 2%;
+}
+
+.footer {
+    background-color: #0a5e1c;
+    text-align: center;
+    color: white;
+    padding: 1%;
+}
