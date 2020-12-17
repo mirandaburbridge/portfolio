@@ -25,6 +25,10 @@
     margin-top: 15px;
 }
 
+.skills {
+    color: #0B5E1C;
+}
+
 .card {
     background-color: #d9fce1;
     margin: 10%;
@@ -32,12 +36,13 @@
 
 #contactMe {
     text-align: center;
+    justify-content: center;
     width: 100%;
     padding: 5%;
 }
 
-#socials {
-    padding: 2%;
+#submit {
+    text-align: center;
 }
 
 .footer {
@@ -45,4 +50,12 @@
     text-align: center;
     color: white;
     padding: 1%;
+}
+
+#github {
+    color: white;
+}
+
+#linkedin {
+    color: white;
 }
