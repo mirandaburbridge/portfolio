@@ -171,20 +171,22 @@
         <h1 class="display-4">Contact Me</h1>
         <br>
         <form action="https://formspree.io/f/xqkgdavp" method="POST">
-            <div class="form-row">
-                <div class="form-group col-md-6">
-                    <label for="exampleInputEmail1">
-                        Your email:
-                        <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1"
-                            aria-describedby="emailHelp">
-                    </label>
+            <div class="col-md">
+                <div class="form-group">
+                    <label for="name">
+                        Your name:</label>
+                    <input type="text" name="name" class="form-control" id="name">
                 </div>
-                <div class="form-group col-md-6">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">
+                        Your email:</label>
+                    <input type="email" name="_replyto" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
                     <label for="exampleFormControlTextarea1">
-                        Your message:
-                        <textarea name="message" class="form-control" id="exampleFormControlTextarea1"
-                            rows="7"></textarea>
-                    </label>
+                        Your message:</label>
+                    <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
                 </div>
                 <!-- your other form fields go here -->
 
@@ -200,7 +202,8 @@
         <h3><a href="https://github.com/mirandaburbridge" target="_blank"><i class="fab fa-github-square"
                     id="github"></i></a>
             <a href="https://www.linkedin.com/in/mirandaburbridge" target="_blank"><i class="fab fa-linkedin"
-                    id="linkedin"></i></a></h3>
+                    id="linkedin"></i></a>
+        </h3>
     </footer>
 </body>
 <!-- jQuery and JS bundle w/ Popper.js -->
